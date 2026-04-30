@@ -1,0 +1,17 @@
+{
+  "plugin": {
+    "name": "Processes Capture",
+    "description": "Captures periodic snapshots of running system processes"
+  },
+  "property": {
+    "snapshot_interval": "Snapshot Interval",
+    "snapshot_interval_description": "Time in seconds between process snapshots",
+    "export_to_csv": "Export to CSV",
+    "export_to_csv_description": "Also save captured snapshots as a CSV file (one row per process per snapshot)",
+    "stream_to_clients": "Stream to Clients",
+    "stream_to_clients_description": "Forward captured snapshots in real time to connected remote clients via the communication module (UDP multicast)"
+  },
+  "capture": {
+    "snapshot_taken": "Snapshot taken: {{count}} processes at {{timestamp}}"
+  }
+}

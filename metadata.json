@@ -1,0 +1,31 @@
+{
+    "id": "processes_recorder",
+    "name": "Processes Recorder",
+    "description": "Captures periodic snapshots of running system processes (pid, user, cpu, command, parent).",
+    "version": "1.0.0",
+    "publisher": {
+        "id": "mo",
+        "name": "Multimodal Observer",
+        "url": ""
+    },
+    "repository": "",
+    "author": {
+        "name": "Camila Carabajal",
+        "email": "camila.carabajal@usach.cl"
+    },
+    "icon": {
+        "dark": "icons/dark.svg",
+        "light": "icons/light.svg"
+    },
+    "locales": "locales",
+    "platform": {
+        "linux": true,
+        "windows": true,
+        "mac": true
+    },
+    "entryPoints": {
+        "mo.plugin": "src.processes_recorder.main:ProcessesCapturePlugin",
+        "mo.plugin.properties": "src.processes_recorder.properties:properties"
+    },
+    "target": "api"
+}

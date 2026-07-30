@@ -4,9 +4,9 @@
     "description": "Captures periodic snapshots of running system processes (pid, user, cpu, command, parent).",
     "version": "1.0.0",
     "publisher": {
-        "id": "mo",
-        "name": "Multimodal Observer",
-        "url": ""
+        "id": "interaction-lab",
+        "name": "InTeractiOn Lab",
+        "url": "https://interaction-lab.info"
     },
     "repository": "",
     "author": {

@@ -1,5 +1,5 @@
 {
-    "id": "processes_recorder",
+    "id": "processes-recorder",
     "name": "Processes Recorder",
     "description": "Captures periodic snapshots of running system processes (pid, user, cpu, command, parent).",
     "version": "1.0.0",
